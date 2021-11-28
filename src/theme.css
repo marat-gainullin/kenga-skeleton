@@ -1,0 +1,40 @@
+/* Theme rules */
+.app-view {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial;
+}
+
+button.p-image-paragraph {
+    outline: 0;
+    cursor: pointer;
+
+    font-size: 15px;
+    color: #fff;
+
+    background-color: #f6b060;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+
+    transition: all 0.3s;
+}
+
+button.p-image-paragraph:hover {
+    background-color: #ffcd8c;
+    border-color: #ffcd8c;
+}
+
+button.p-image-paragraph:active {
+    background-color: #cf8a46;
+    border-color: #cf8a46;
+}
